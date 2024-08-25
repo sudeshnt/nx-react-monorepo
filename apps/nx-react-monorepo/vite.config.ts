@@ -25,7 +25,7 @@ export default defineConfig({
   // },
 
   build: {
-    outDir: '../../dist/apps/nx-react-monorepo',
+    outDir: './build/nx-react-monorepo',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
